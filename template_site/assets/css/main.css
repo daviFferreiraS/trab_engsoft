@@ -2667,3 +2667,48 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+.login{
+  border-radius: 30px;
+  padding-top: 40px;
+  color: white;
+  margin-top: 200px;
+  background-color: var(--color-primary);
+  padding-bottom: 40px;
+  border: 2px solid #006459;
+
+}
+
+.login p {
+  font-size: 1.3rem;
+  color: white; 
+}
+
+.login input {
+  margin: 20px;
+  max-width: 95%;
+}
+
+.login button {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color:#006459;
+  padding: 8px;
+  width: 60%;
+}
+
+.login_label {
+  margin-left: 20px;
+}
+
+#login-tomador {
+  background-color: #F85A40;
+  border: 2px solid #bc422f;
+}
+
+#login-tomador button {
+  background-color: #b03e2c;
+}

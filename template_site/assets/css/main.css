@@ -2712,3 +2712,23 @@ section {
 #login-tomador button {
   background-color: #b03e2c;
 }
+
+.btn-veja-servicos {
+  font-size: 1.2rem;
+}
+
+.filters-services {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0px;
+  border-bottom: 2px solid rgb(87, 87, 87);
+  background-color: var(--color-white);
+  width: fit-content;
+}
+
+.div-services-filter label{
+  font-size: 1.2rem;
+  margin-left: 20px;
+}

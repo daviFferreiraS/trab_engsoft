@@ -27,7 +27,7 @@
       
               <div class="section-header">
                 <h2>Cadastro</h2>
-                <p>Por favor, insira seus dados!</p>
+                <p>Por favor, insira os dados de sua entidade!</p>
               </div>
       
               <div class="row gx-lg-0 gy-4">
@@ -51,6 +51,15 @@
                                   <label>Digite seu endereço: </label> <input type="text" name="name" class="form-control" required>
                                 </div>
                               </div>
+                              <div class="content-container">
+                                <div class="content">
+                                  <label>Digite seu documento:</label> <input type="text" name="name" class="form-control" required>   
+                                </div><div class="content">
+                                  <label>Digite seu cargo:</label> <input type="text" name="name" class="form-control" id="name" required>   
+                                </div><div class="content">
+                                  <label>Digite o nome fantasia:</label> <input type="text" name="name" class="form-control" id="name" required>   
+                                </div>
+                              </div>
                               <div class="description-container">
                                 <label>Digite sua descrição: </label><br> <textarea cols="150" rows="10"></textarea>
                               </div>
@@ -71,8 +80,13 @@
                           <div class="info-item d-flex">
                             <i class="bi bi-phone flex-shrink-0"></i>
                             <div>
-                              <h4>Experiência:</h4>
-                              <button class="add-button">Adicionar Experiência</button>
+                              <h4>Trabalhos:</h4>
+                              <div class="content">
+                                  <label>Digite o raio de alcance: </label> <input type="text">
+                              </div>
+                              <br>
+                              <button class="add-button">Adicionar Tipo</button>
+                              
                             </div>
                           </div><!-- End Info Item -->
                           
@@ -90,8 +104,6 @@
                   </div>
       
                 </div>
-      
-      
       
             </div>
           </section><!-- End Contact Section -->
